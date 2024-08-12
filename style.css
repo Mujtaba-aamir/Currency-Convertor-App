@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar
+{
+    width: 100wh;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+   list-style: none; 
+    background-color: #444141;
+    border-radius: 6px;
+}
+.list-item:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container
+{
+    background-color: white;
+    width: 310px;
+    border-radius: 8px;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+}
+form input, button, select
+{
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.img
+{
+    width: 25px;
+}
+.first
+{
+   width: 50px;
+}
+.fromm
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+padding: 2px;
+}
+.too
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 2px;
+}
+.dropdown
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form
+{
+    padding: 20px;
+}
+#input
+{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    height: 20px;
+    padding: 10px;
+}
+i
+{
+    font-size: large;
+    margin-top: 20px;
+}
+.info
+{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+button
+{
+   margin-top: 18px;
+   border: 1px solid lightgray;
+   padding: 8px;
+   border-radius: 7px;
+   margin-left: 5px;
+  background-color: rgb(207, 202, 202);
+  font-size:medium ;
+  cursor: pointer;
+}
+.whole
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
